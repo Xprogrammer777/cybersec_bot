@@ -4,7 +4,7 @@ import shlex
 import asyncio
 import re
 
-TOKEN = 'MTM2MjUzMTI2NTc1NjI2NjY0Nw.G49v6L.mgo4YLZPHRLpKroHWSF4M3yIJI4ZwYcHCIXUGk'
+TOKEN = TOKEN
 COMMAND_PREFIX = '!'
 
 intents = discord.Intents.default()
