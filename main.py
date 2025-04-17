@@ -1,10 +1,11 @@
+import os
 import discord
 import subprocess
 import shlex
 import asyncio
 import re
 
-TOKEN = TOKEN
+TOKEN = os.getenv("TOKEN")
 COMMAND_PREFIX = '!'
 
 intents = discord.Intents.default()
